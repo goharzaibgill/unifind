@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Login - UniFind Pakistan | Free University Finder</title>
+  <meta name="description" content="Sign in to UniFind Pakistan. Access your saved universities, compare lists, and merit calculations. Free account for Pakistani students.">
+  <meta name="keywords" content="UniFind login, university finder account, saved universities Pakistan">
+  <meta name="author" content="Gohar Zaib Gill">
+  <meta name="robots" content="noindex, nofollow">`n  <meta name="theme-color" content="#1f4d3f">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3CclipPath id='c'%3E%3Ccircle cx='16' cy='16' r='15'/%3E%3C/clipPath%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='15' fill='%2301411C'/%3E%3Crect x='16' y='1' width='15' height='30' fill='white' clip-path='url(%23c)'/%3E%3Ccircle cx='20' cy='16' r='6' fill='white'/%3E%3Ccircle cx='21.5' cy='16' r='5' fill='%2301411C'/%3E%3Ccircle cx='23.5' cy='13' r='1.8' fill='white'/%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3CclipPath id='c'%3E%3Ccircle cx='16' cy='16' r='15'/%3E%3C/clipPath%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='15' fill='%2301411C'/%3E%3Crect x='16' y='1' width='15' height='30' fill='white' clip-path='url(%23c)'/%3E%3Ccircle cx='20' cy='16' r='6' fill='white'/%3E%3Ccircle cx='21.5' cy='16' r='5' fill='%2301411C'/%3E%3Ccircle cx='23.5' cy='13' r='1.8' fill='white'/%3E%3C/svg%3E">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Login - UniFind Pakistan">
+  <meta property="og:description" content="Sign in to UniFind Pakistan. Access your saved universities and compare lists.">
+  <meta property="og:url" content="https://unifind.pk/login.html">
+  <meta property="og:site_name" content="UniFind Pakistan">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loading-spinner"></div>
+  </div>
+
+  <div class="login-container">
+    <div class="login-card">
+      <div class="logo">
+        <h1>Uni<span>Find</span></h1>
+        <p>Pakistan's University Finder</p>
+      </div>
+
+      <button class="google-btn" onclick="alert('Google Sign-In would open here')" aria-label="Sign in with Google">
+        <svg class="google-icon" viewBox="0 0 24 24">
+          <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/>
+          <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+          <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+          <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+        </svg>
+        Continue with Google
+      </button>
+
+      <div class="divider">
+        <span>or sign in with email</span>
+      </div>
+
+      <form onsubmit="event.preventDefault(); alert('Login successful! Welcome to UniFind Pakistan.');">
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="you@example.com" required aria-label="Email address">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" placeholder="Enter your password" required aria-label="Password">
+        </div>
+        <div class="form-options">
+          <label>
+            <input type="checkbox" aria-label="Remember me"> Remember me
+          </label>
+          <a href="#">Forgot password?</a>
+        </div>
+        <button type="submit" class="login-btn">Sign In</button>
+      </form>
+
+      <div class="login-footer">
+        Don't have an account? <a href="#">Create one free</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
